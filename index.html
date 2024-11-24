@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Sabina.webp">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <!-- Header area-->
+        <header>
+            <!-- Navigation -->
+            <nav>
+                <button aria-label="Toggle navigation menu">☰</button>
+                <ul>
+                    <li><a href="#welcome">Welcome</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project-details">Projects</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Navigation ends -->
+            <h1>My Portfolio</h1>
+        </header>
+
+        <!-- Main area -->
+        <main>
+            <h2>Welcome!</h2>
+            <section id="welcome">
+                <p>
+                    HELLO! WELCOME TO MY PORTFOLIO
+                    <br><br>
+                    Hi! This is Sabina. I have a versatile background in visual design, software development, and
+                    branding.
+                    I enjoy working in a creative, agile environment with multi-cultural teams.
+                    <br><br>
+                    I am proactive and able to set effective priorities and implement decisions. I possess good time
+                    management
+                    qualities, professional administrative IT skills, and strong communication and interpersonal skills.
+                </p>
+                <img src="nature-lover.jpg" alt="Nature is Everything">
+            </section>
+
+            <!-- Skills area -->
+            <h2>Skills</h2>
+            <section id="skills">
+                <div class="card">
+                    <h3>Skill</h3>
+                    <p>Computational Intelligence and Management</p>
+                </div>
+                <div class="card">
+                    <h3>Skill</h3>
+                    <p>Front-End Developer</p>
+                </div>
+                <div class="card">
+                    <h3>Skill</h3>
+                    <p>ERP and SPSS</p>
+                </div>
+            </section>
+
+            <h2>Projects</h2>
+            <p class="intro__para">Please view some of my work below. Hope you will enjoy it!! <br /></p>
+
+            <section id="project-details">
+                <div class="project-card">
+                    <h3>Project Name 1</h3>
+                    <p>Visualization of global material and energy flows</p>
+                    <p>
+                        To develop a concept for visualizing the global material and energy flows based on dynamic data
+                        which is preferably in a form of a map or map-like visualization with varying visual elements
+                        and differing scales. The visualizations show which areas are globally the net producers and
+                        consumers of the material flow or energy products.
+                    </p>
+                    <img src="2.webp" alt="Global material and energy flows visualization">
+                </div>
+                <div class="project-card">
+                    <h3>Project Name 2</h3>
+                    <p>National Forest Inventory Designs and Methods</p>
+                    <p>
+                        To assist in editing the Country Report Book of Cost Action E43 of European Commission,
+                        published
+                        by Springer. The book presents information on forest inventories for about 40 countries around
+                        the world.
+                    </p>
+                    <img src="3.webp" alt="National Forest Inventory Designs and Methods">
+                </div>
+                <div class="project-card">
+                    <h3>Project Name 3</h3>
+                    <p>ICT Project: SMACT</p>
+                    <p>SMACT: Project participant in ICT Showroom event in Turku, Finland.</p>
+                    <img src="2.webp" alt="SMACT project showcase">
+                </div>
+            </section>
+
+            <!-- Gallery area -->
+            <h2>Gallery</h2>
+            <section id="gallery">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book.</p>
+                <div class="image-gallery">
+                    <img src="image1.jpg" alt="Description of image 1">
+                    <img src="image2.jpg" alt="Description of image 2">
+                    <img src="image3.jpg" alt="Description of image 3">
+                    <img src="image4.jpg" alt="Description of image 4">
+                    <img src="image5.jpg" alt="Description of image 5">
+                    <img src="image6.jpg" alt="Description of image 6">
+                </div>
+            </section>
+
+            <!-- Contact area -->
+            <h2>Contact</h2>
+            <section id="contact">
+                <div class="card-contact-details">
+                    <h3>Contact Information</h3>
+                    <h5>Address :</h5>
+                    <p>Palovartijantie 13-17 <br> Helsinki, 00750, Finland</p>
+                    <p>Phone : +358456698177 </p>
+                </div>
+                <div class="card-getintouch">
+                    <h3>Get in Touch</h3>
+                    <form id="form">
+                        <input type="text" name="cf_name" placeholder="Your name" class="contact-form" required>
+                        <input type="email" name="cf_email" placeholder="Your Email" class="contact-form" required>
+                        <textarea name="cf_message" placeholder="Message" class="contact-form" required></textarea>
+                        <input type="submit" class="btn btn-red m-shadow" value="Send message">
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer area -->
+        <footer>
+            <section id="socials"></section>
+            <section id="copy">
+                <p>&copy; Sabina A 2024</p>
+            </section>
+        </footer>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
